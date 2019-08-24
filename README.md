@@ -2,4 +2,4 @@
 
 #### [1. Innodb的几个关键特性](/innodb/1)
 #### [2. 索引](/innodb/2)
-#### [2. Innodb中的锁](/innodb/3)
+#### [3. Innodb中的锁](/innodb/3)
