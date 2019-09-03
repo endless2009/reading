@@ -18,7 +18,7 @@ Javac编译过程大概分为3个步骤
 3. 分析与字节码生成
 其中1、2部分会循环进行，直到语法树不再变化。
 
-![](http://wx4.sinaimg.cn/mw1024/9c96fc9cly1g6lh15wdunj20xy098acn.jpg)
+<img src="http://wx4.sinaimg.cn/mw1024/9c96fc9cly1g6lh15wdunj20xy098acn.jpg" referrerpolicy="no-referrer">
 
 #### Javac编译过程的主体方法
 
