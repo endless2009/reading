@@ -4,7 +4,7 @@ Java语言的“编译期”有不同的解释，例如它可能是指把*.java�
 第一个过程的编译器被称为“前端编译器”，例如javac
 第二个过程的编译器被称为“JIT编译器，Just In Time Compiler”，例如HotSpot的C1、C2编译器。
 
-![](http://wx1.sinaimg.cn/mw1024/9c96fc9cly1g6lh158ygoj20pc0fygn4.jpg)
+![](http://cdn.nlark.com/yuque/0/2019/png/474206/1567477280713-f1398759-0353-4ca3-b1c1-af4930ed4a7a.png)
 
 ### 前期(编译期)优化
 
