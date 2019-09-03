@@ -4,8 +4,7 @@ Java语言的“编译期”有不同的解释，例如它可能是指把*.java�
 第一个过程的编译器被称为“前端编译器”，例如javac
 第二个过程的编译器被称为“JIT编译器，Just In Time Compiler”，例如HotSpot的C1、C2编译器。
 
-<img src="http://cdn.nlark.com/yuque/0/2019/png/474206/1567477280713-f1398759-0353-4ca3-b1c1-af4930ed4a7a.png" referrerpolicy="no-referrer">
-![](http://cdn.nlark.com/yuque/0/2019/png/474206/1567477280713-f1398759-0353-4ca3-b1c1-af4930ed4a7a.png)
+<img src="http://wx1.sinaimg.cn/mw1024/9c96fc9cly1g6lh158ygoj20pc0fygn4.jpg" referrerpolicy="no-referrer">
 
 ### 前期(编译期)优化
 
@@ -22,9 +21,9 @@ Javac编译过程大概分为3个步骤
 
 #### Javac编译过程的主体方法
 
-![](http://wx3.sinaimg.cn/mw1024/9c96fc9cly1g6lh156qo6j20fm08ujrm.jpg)
+<img src="http://wx3.sinaimg.cn/mw1024/9c96fc9cly1g6lh156qo6j20fm08ujrm.jpg" referrerpolicy="no-referrer">
 
-![](http://wx3.sinaimg.cn/mw1024/9c96fc9cly1g6lh1565fej20d906pglm.jpg)
+<img src="http://wx3.sinaimg.cn/mw1024/9c96fc9cly1g6lh1565fej20d906pglm.jpg" referrerpolicy="no-referrer">
 
 ##### 1.1 词法、语法分析
 词法分析是将源代码的字符流转变为标记集合，单个字符是程序编写过程的最小元素，而标记是编译过程的最小元素，关键词、变量名、字面量、运算符都可以成为标记，如`int a = b + 2`这行代码包含了6个标记，分别是int、a、=、b、+、2，虽然关键词int是三个字符，但它只是一个Token，不能再拆分。
@@ -33,7 +32,7 @@ Javac编译过程大概分为3个步骤
 
 ##### 抽象语法树
 
-![](http://wx2.sinaimg.cn/mw1024/9c96fc9cly1g6lh15apkfj20pb0b4js2.jpg)
+<img src="http://wx2.sinaimg.cn/mw1024/9c96fc9cly1g6lh15apkfj20pb0b4js2.jpg" referrerpolicy="no-referrer">
 
 上图来自IDEA插件**JDT ASTView**
 
@@ -59,7 +58,7 @@ JDK1.6之后提供了插入式注解处理器标准API，在编译期间对注�
 语义分析的任务：
 对结构上正确的源程序进行上下文审查，例如类型审查；
 
-![](http://wx4.sinaimg.cn/mw1024/9c96fc9cly1g6lh157pajj20vp04xdg2.jpg)
+<img src="http://wx4.sinaimg.cn/mw1024/9c96fc9cly1g6lh157pajj20vp04xdg2.jpg" referrerpolicy="no-referrer">
 
 如上右图，三个运算都可以构成结构正确的语法树，但是显然只有第一种可以通过编译。
 
@@ -142,7 +141,7 @@ int d = **E** * 13 + a * 2
 ##### 方法内联
 方法内联是编译器最重要的优化手段之一，除了消除方法调用成本，也可以为其他优化手段建立良好的基础，如
 
-![](http://wx2.sinaimg.cn/mw1024/9c96fc9cly1g6lhi7xeabj20db05b0ss.jpg)
+<img src="http://wx2.sinaimg.cn/mw1024/9c96fc9cly1g6lhi7xeabj20db05b0ss.jpg" referrerpolicy="no-referrer">
 
 图中两个方法事实上都是无用代码，但单独看都发现不了任何“DeadCode”，但是做了方法内联之后就很容易检测出来。
 
